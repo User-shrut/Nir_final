@@ -43,13 +43,15 @@ padding-left: 23px;
     gap: 12px;
 }
 .logo2 img{
-    width: 105px;
+    width: 135px;
     height: 62px;
+    position: relative;
+    right: -134px;
 }
 .navlist ul{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: self-start;
     width: 111%;
 }
 .navlist ul li{
@@ -73,7 +75,7 @@ padding-left: 23px;
     width: 20px;
 }
 .navlist ul{
-    padding-left: 1rem;
+    padding-left: 4rem;
 }
 .container1{
     width: 100%;
@@ -992,6 +994,8 @@ main{
     background-color: #45a049;
 }
 .close-btn {
+    background-color: #000000; 
+    border: none;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -1012,7 +1016,7 @@ filter: invert();
 
 /* Apply the blinking animation to the specified elements */
 .blink {
-    animation: blink 2s infinite;
+    animation: blink 1s infinite;
 }
 
 
