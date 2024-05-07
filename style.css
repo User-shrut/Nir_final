@@ -1155,8 +1155,12 @@ ul {
         width: 130px;
     }
 
-    .close-btn {
-        top: 33%;
+    /* .close-btn {
+         top: 33%;
+        right: 8%;
+    } */
+    .image-btn{
+        top: 31%;
         right: 8%;
     }
     .margin-set {
